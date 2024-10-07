@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <title> BITS CARE MEDICAL CONSULT</title>
 </head>
-<body>
+ <body>
 <main>
 <div class="navbar">
   <div class="logo">
@@ -20,7 +20,7 @@
     </button>
     <div class="dropdown-content">
       <a href='/history.php'>Our History</a>
-      <a href="Our. Mission.php"> Our Mission</a>
+      <a href="Our. mission.php"> Our Mission</a>
       <a href="stragety.php">Our Stragety</a>
     </div>
   </div> 
@@ -28,27 +28,38 @@
     <button class="dropbtn">Services  
       <i class="fa fa-caret-down"></i>
     </button>
+
     <div class="dropdown-content">
-      <a href="#service1">Mental health</a>
-      <a href="#service2">Heart Care</a>
-      <a href="#service3">General</a>
+      <a href="mental Health.php">Mental Health</a>
+      <a href="Heart Care.php">Heart Care</a>
+      <a href="General Med.php">General Med</a>
     </div>
+
   </div><div class="dropdown">
     <button class="dropbtn">Contacts  
       <i class="fa fa-caret-down"></i>
-    </button> 
+    </button>
+
   <div class="dropdown-content">
-      <a href="#service1">Inquires</a>
-      <a href="#service2">Getting Here</a>
-      <a href="#service3">Maps</a>
+      <a href="Talk to us.php">Talk to us</a>
+  
 </div>
 </main>
 <div class="tag">
-  <h1>Lorem ipsum dolor sit amet.</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ut voluptatum molestiae incidunt <br> illum magnam, ullam aut eius cum esse quasi at non dolore pariatur. Qui culpa ipsum sed <br> impedit nam excepturi laboriosam dolorum!</p>
+  <p>Dedicated to providing exceptional care.</P>
+  <p>Where hope meets healing.</p>
 
-  <button type="button">Email</button>
+  <div class="tag button">
+  <a href="Bookvisit.php">
+  <button type="button">Book visit!</button>
+  </a>
+  </div> 
 </div>
+<footer class="footer">
+        <p>&copy; 2024 BITSCARE MEDICAL CONSULT. All rights reserved.</p>
+        <p><a href="/privacy-policy.html">Privacy Policy</a> | <a href="/terms-of-service.html">Terms of Service</a></p>
+    </footer>
+
 </body>
 </html>
 

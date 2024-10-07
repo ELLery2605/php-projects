@@ -12,17 +12,24 @@ body {
 }
 .tag{
     color: black;
-    background-color: rgb(210, 214, 226);;
+    background-color:blue;
     float: right;
-    margin: 12px;
-    box-shadow: 11px 12px 3px rgb(212, 226, 160);
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 80px;
+    font-size: 20px;
 }
-.tag h1, p,button{
-    margin: 15px;
+.tag button{
+    margin: 2px;
+    font-weight: bold;
+    color: black;
+    float: right;
+
+    
 }
 .navbar {
     overflow: hidden;
-    background-color: rgb(124, 146, 219);
+    background-color: rgb(9, 64, 247);
     max-height: 200px;
 }
 
@@ -90,4 +97,22 @@ body {
     font-size: medium;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+}
+.footer {
+    background-color:blue;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }

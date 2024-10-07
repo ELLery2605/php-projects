@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mission</title>
 </head>
+<style>
+    .p{
+        color: azure;
+        font-size: 30px;
+    }
+</style>
+<?php include 'Nav.php'; ?>
 <body>
-    <p>
+    <div class="p">
     Our Mission is to offer our valued client’s evidence-informed services that exceed expectations. 
-    </p>
+</div>
 </body>
 </html>

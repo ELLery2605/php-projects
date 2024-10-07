@@ -3,10 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>History</title>
+    <style>
+        .p{
+            color: aqua;
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+      </style>  
 </head>
+
+<?php include 'Nav.php'; ?>
 <body>
-    <p>
+    
+<div class="p">
     Bits Care Medical Consult was established in 2010 by 
     Dr. Emily Hughes, a visionary in integrating technology 
     with healthcare services. The company began with a small team of
@@ -21,7 +32,7 @@
          innovative approach, multidisciplinary team, and commitment 
          to improving patient 
     outcomes through cutting-edge technology and compassionate care.
-    </p>
+    </div>
     
 </body>
 </html>
